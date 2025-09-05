@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jsd os</title>
+    <link rel="icon" href="logo.ico">
+    <link rel="stylesheet" href="jsd.css">
+</head>
+<body>
+    <header>
+        <p>v1.0</p>
+        <div id="google">
+            <input type="text" id="search" placeholder="Search with Google">
+            <button onclick="search()">Search</button>
+            <select id="power" onchange="power()">
+                <option value="" disabled selected>Power</option>
+                <option value="shutdown">Shutdown</option>
+                <option value="restart">Restart</option>
+            </select>
+        </div>
+    </header>
+      <div id="time">
+            <p id="hours">00</p>
+            <p>:</p>
+            <p id="minutes">00</p>
+            <p>:</p>
+            <p id="seconds">00</p>
+        </div>
+    <div id="app">
+        <div id="poorbank">
+            <a href="https://dip498.github.io/poorbank/">
+                <img src="poor.png" alt="Poorbank Logo">
+                <p>Poorbank</p>
+            </a>
+        </div>
+        <div id="wather">
+            <a href="https://moccasin-bonnibelle-48.tiiny.site">
+                <img src="weather.png" alt="Wather Logo">
+                <p>Wather</p>
+            </a>
+        </div>
+    </div>
+
+    <script src="jsd.js"></script>
+</body>
+</html>
